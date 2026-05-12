@@ -68,8 +68,8 @@ function Dashboard() {
         <>
           <p><b>Name:</b> {employee.name}</p>
           <p><b>Email Address:</b> {employee.email}</p>
-          <p><b>Login Time:</b> {employee.loginTime}</p>
-          <p><b>Logout Time:</b> {employee.logoutTime || "Not logged out"}</p>
+          <p><b>Login Time schedule:</b> {employee.loginTime}</p>
+          <p><b>Logout Time scheduleg:</b> {employee.logoutTime || "Not logged out"}</p>
           <p><b>Shift:</b> {userShift?.shift}</p>
         </>
       )}
